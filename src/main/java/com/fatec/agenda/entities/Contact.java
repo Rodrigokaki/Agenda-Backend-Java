@@ -15,19 +15,19 @@ public class Contact {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(length = 40)
+    @Column(length = 40, nullable = false)
     private String name;
 
-    @Column
+    @Column(nullable = false)
     private Integer age;
 
-    @Column
+    @Column(nullable = false)
     private Integer gender;
 
-    @Column
+    @Column(nullable = false)
     private String telephone;
 
-    @Column
+    @Column(nullable = false)
     private Boolean favorite;
 
     public Integer getId() {
