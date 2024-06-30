@@ -19,10 +19,10 @@ public class Contact {
     private String name;
 
     @Column
-    private Number age;
+    private Integer age;
 
     @Column
-    private Number gender;
+    private Integer gender;
 
     @Column
     private String telephone;
@@ -46,19 +46,19 @@ public class Contact {
         this.name = name;
     }
 
-    public Number getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(Number age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
-    public Number getGender() {
+    public Integer getGender() {
         return gender;
     }
 
-    public void setGender(Number gender) {
+    public void setGender(Integer gender) {
         this.gender = gender;
     }
 
