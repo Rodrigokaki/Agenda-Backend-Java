@@ -18,16 +18,16 @@ public class Contact {
     @Column(length = 40, nullable = false)
     private String name;
 
-    @Column(nullable = false)
+    @Column
     private Integer age;
 
-    @Column(nullable = false)
+    @Column
     private Integer gender;
 
     @Column(nullable = false)
     private String telephone;
 
-    @Column(nullable = false)
+    @Column
     private Boolean favorite;
 
     public Integer getId() {
